@@ -1,0 +1,12 @@
+---
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Metodología de diagnóstico de cuidados.
+
+## Proyecto desarrollado por el CIDE. 
+
