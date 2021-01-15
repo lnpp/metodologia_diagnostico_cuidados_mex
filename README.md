@@ -1,12 +1,4 @@
-<style>
-
-  h1,h2,h3 {
-    color:#619776;
-  }
-
-</style>
-
-<img src = 'Multimedia/Imagenes/Marco Analítico H.png'>
+<img src = 'https://raw.githubusercontent.com/lnpp/metodologia_diagnostico_cuidados_mex/main/Multimedia/Imagenes/Marco%20Anal%C3%ADtico%20H.png'>
 
 <h1 style = 'text-align:center;'>Proyecto de metodología, diagnóstico y propuesta de cuidados a nivel municipal</h1>
 
