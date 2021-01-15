@@ -19,7 +19,7 @@ Los scripts están agrupados siguiendo la lógica del documento, de tal manera q
 El nombre de los scripts corresponde a la siguiente información: 
 ### Nombres de los scripts
 
-$$Grupo de interés + _ + Tipo de cuidado + _ + Atributo del derecho + _ + Proveedor del servicio$$
+_Grupo de interés + _ + Tipo de cuidado + _ + Atributo del derecho + _ + Proveedor del servicio_
 
 Por ejemplo, `IT_CP_Cob_Hog.R` es el script que mide el _indicador de cobertura de cuidados personales para infancia temprana desde el hogar_, y así sucesivamente.
 
