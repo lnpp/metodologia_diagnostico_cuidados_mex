@@ -1,12 +1,4 @@
-<style>
-
-  h1,h2,h3 {
-    color:#619776;
-  }
-
-</style>
-
-<img src = 'Multimedia/Imagenes/Marco Analítico H.png'>
+<img src = 'https://raw.githubusercontent.com/lnpp/metodologia_diagnostico_cuidados_mex/main/Multimedia/Imagenes/Marco%20Anal%C3%ADtico%20H.png'>
 
 <h1 style = 'text-align:center;'>Proyecto de metodología, diagnóstico y propuesta de cuidados a nivel municipal</h1>
 
@@ -27,7 +19,7 @@ Los scripts están agrupados siguiendo la lógica del documento, de tal manera q
 El nombre de los scripts corresponde a la siguiente información: 
 ### Nombres de los scripts
 
-$$Grupo de interés + _ + Tipo de cuidado + _ + Atributo del derecho + _ + Proveedor del servicio$$
+_Grupo de interés + _ + Tipo de cuidado + _ + Atributo del derecho + _ + Proveedor del servicio_
 
 Por ejemplo, `IT_CP_Cob_Hog.R` es el script que mide el _indicador de cobertura de cuidados personales para infancia temprana desde el hogar_, y así sucesivamente.
 
