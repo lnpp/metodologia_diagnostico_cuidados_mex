@@ -20,11 +20,11 @@ Los scripts están agrupados siguiendo la lógica del documento, de tal manera q
 
 El nombre de los scripts corresponde a la siguiente información: 
 
-_Grupo de interés + _ + Tipo de cuidado + _ + Atributo del derecho + _ + Proveedor del servicio_
+`Grupo de interés + _ + Tipo de cuidado + _ + Atributo del derecho + _ + Proveedor del servicio`
 
 Por ejemplo, `IT_CP_Cob_Hog.R` es el script que mide el _indicador de cobertura de cuidados personales para infancia temprana desde el hogar_, y así sucesivamente.
 
-El único script que no cabe dentro de ésta lógica es *A1_EstimacionesCrecimientoPoblacional.r* que corresponde a la información del Anexo 1 del documento metodológico.
+El único script que no cabe dentro de ésta lógica es `A1_EstimacionesCrecimientoPoblacional.r` que corresponde a la información del Anexo 1 del documento metodológico.
 
 ### Replicabilidad con otros municipios
 
