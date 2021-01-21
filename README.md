@@ -2,13 +2,13 @@
 
 <h1 style = 'text-align:center;'>Proyecto de metodología, diagnóstico y propuesta de cuidados a nivel municipal</h1>
 
-<p style = 'color:gray; text-align:center;'>Laboratorio Nacional de Políticas Públicas (LNPP)<br>
+Laboratorio Nacional de Políticas Públicas (LNPP)<br>
 Centro de Investigación y Docencia Económicas (CIDE)<br>
-15 de enero de 2021</p>
+15 de enero de 2021
 
 ## Contenido del repositorio:
 
-Los scripts contenidos en este repositorio miden los indicadores de los atributos del derecho a cuidar y del derecho a ser cuidada o cuidado, de acuerdo con la metodología desarrollada en el documento _"Marco analítico y metodología para diagnosticar las brechas en los cuidados en municipios de México"_.
+Los scripts contenidos en este repositorio miden los indicadores de los atributos del derecho a cuidar y del derecho a ser cuidada o cuidado, de acuerdo con la metodología desarrollada en el documento <a href = 'http://cuidados.lnpp.mx'> _"Marco analítico y metodología para diagnosticar las brechas en los cuidados en municipios de México"_</a>.
 
 Para comprender lo que se mide en cada indicador es necesario antes revisar documento mencionado.
 
@@ -16,8 +16,9 @@ Para comprender lo que se mide en cada indicador es necesario antes revisar docu
 
 Los scripts están agrupados siguiendo la lógica del documento, de tal manera que la carpeta **"Derecho a ser cuidadx - Cobertura"** contiene todos los scripts que miden cobertura de los distintos cuidados (personal, de desarrollo integral, de salud) para los tres grupos de interés (infancia temprana, personas con discapacidad, personas adultas mayores). Nótese que el Derecho a cuidar no se divide por tipo de cuidado, por lo que todos los scripts correspondientes a este derecho se alojan dentro de la única carpeta **"Derecho a cuidar"**.
 
-El nombre de los scripts corresponde a la siguiente información: 
 ### Nombres de los scripts
+
+El nombre de los scripts corresponde a la siguiente información: 
 
 _Grupo de interés + _ + Tipo de cuidado + _ + Atributo del derecho + _ + Proveedor del servicio_
 
