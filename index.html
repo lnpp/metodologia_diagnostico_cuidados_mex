@@ -7,13 +7,27 @@
     <!-- Caracteres -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <meta name="description" content="Estudio de métodología de cuidados a cargo del CIDE-LNPP">
+    <meta property="og:title" content="Cuidados" />
+    <meta property="og:url" content="http://cuidados.lnpp.mx" />
+    <meta property="og:description" content="Sitio web del proyecto de Metodología de Cuidados del LNPP-CIDE">
+    <meta property="og:image" content="https://raw.githubusercontent.com/lnpp/metodologia_diagnostico_cuidados_mex/main/Multimedia/Imagenes/Marco%20Anal%C3%ADtico%20H.png">
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+    <link rel="SHORTCUT ICON" href="https://lnpp.mx/assets/favicon.ico">
     <title>Metodología de cuidados</title>
     
     <style>
+    
+    html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
     
     @import url('https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300&display=swap');
     
@@ -23,6 +37,7 @@
       
       #barraInferior {
          background-color: #272C31!important;
+         
       }
       
       #footer {
@@ -33,9 +48,10 @@
       
       .downbartext {
          color:white!important;
+         padding-left: 20px;
       }
       
-      p {
+  p {
     font-size: 16px;
     font-family: 'Hind Guntur', sans-serif;
     text-align: justify;
@@ -45,6 +61,12 @@
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+  }
+  
+  .linksInicio {
+    text-align:center;
+    padding-bottom: 0px;
+    margin-bottom:  0px;
   }
   
   h1, h2, h3, h4, h5 {
@@ -60,19 +82,61 @@
     margin-left: auto;
   }    
       
+      .button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+      
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container_1 {
+  padding: 2px 16px;
+}
       
     </style>
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RXDGFPNJN2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-RXDGFPNJN2');
-</script>
-    
   </head>
 
 
@@ -114,25 +178,61 @@
 
 <img src = 'https://raw.githubusercontent.com/lnpp/metodologia_diagnostico_cuidados_mex/main/Multimedia/Imagenes/Marco%20Anal%C3%ADtico%20H.png' width = "100%">
 
-<br>
+<br><br>
 
 <div class = "container">
   
   <div id="metodología-de-diagnóstico-de-cuidados." class="section level1">
-<br>
-<h1>Metodología de diagnóstico de cuidados.</h1>
+
 <div class="row">
-  <div class="col-sm-2 offset-md-4 col-sm-offset-4"><a href = 'https://github.com/lnpp/metodologia_diagnostico_cuidados_mex/raw/main/Documentos/MARCO%20ANALITICO-V060121.pdf'>Descargar Reporte</a></div>
-  <div class="col-sm-2"><a href = 'https://github.com/lnpp/metodologia_diagnostico_cuidados_mex'>Consultar Código</a></div>
+  <div class="col-sm-4">
+    <a href = 'https://github.com/lnpp/metodologia_diagnostico_cuidados_mex/raw/main/Documentos/MARCO%20ANALITICO-VF.pdf'>
+      <div class="card">
+        <img src="https://raw.githubusercontent.com/lnpp/metodologia_diagnostico_cuidados_mex/main/Multimedia/Publicaciones/ma.png" alt="Avatar" style="width:100%">
+        <div class="container_1">
+        <h4><br><b>Marco Analítico</b></h4> 
+        <a href = 'https://github.com/lnpp/metodologia_diagnostico_cuidados_mex/raw/main/Documentos/MARCO%20ANALITICO-VF.pdf'><p class="linksInicio">Descargar archivo.<br></a></p> 
+        </div>
+        </div></a>
+        <br>
+    
+    </div>
+  <div class="col-sm-4">
+    
+    <a href = 'https://github.com/lnpp/metodologia_diagnostico_cuidados_mex/raw/main/Documentos/DIAGNOSTICO-VF.pdf'>
+    <div class="card">
+      <img src="https://raw.githubusercontent.com/lnpp/metodologia_diagnostico_cuidados_mex/main/Multimedia/Publicaciones/dia.png" alt="Avatar" style="width:100%">
+      <div class="container_1">
+      <h4><br><b>Diagnóstico</b></h4> 
+      <p class="linksInicio"><a href = 'https://github.com/lnpp/metodologia_diagnostico_cuidados_mex/raw/main/Documentos/DIAGNOSTICO-VF.pdf'>Descargar archivo.<br></a></p> 
+      </div>
+      </div></a>
+      <br>
+    
+    </div>
+  <div class="col-sm-4">
+    <a href = 'https://github.com/lnpp/metodologia_diagnostico_cuidados_mex/raw/main/Documentos/PROPUESTA%20IMPLEMENTACION-VF.pdf'>
+      <div class="card">
+        <img src="https://raw.githubusercontent.com/lnpp/metodologia_diagnostico_cuidados_mex/main/Multimedia/Publicaciones/prop.png" alt="Avatar" style="width:100%">
+        <div class="container_1">
+        <h4><br><b>Propuesta de implementación</b></h4> 
+        <p class="linksInicio"><a href = 'https://github.com/lnpp/metodologia_diagnostico_cuidados_mex/raw/main/Documentos/PROPUESTA%20IMPLEMENTACION-VF.pdf' >Descargar archivo.</a></p> 
+        </div>
+        </div>
+        </a>
+        
+    </div>
+  
 </div>
+
 <p>A lo largo de la vida, todas las personas requerimos cuidados. Los cuidados son el conjunto de actividades cotidianas que permiten regenerar, todos los días, el bienestar físico y emocional de las personas (ONU-Mujeres e ILSB, 2016). Se trata tanto de alimentar, vestir y acompañar a alguien, como de las actividades secundarias que son necesarias para el desarrollo de la vida cotidiana (como la cocina, la limpieza y mantenimiento del hogar, la compra de medicamentos, entre otras).</p>
 <p>Sin embargo, no todas las personas requerimos el mismo cuidado todo el tiempo: la intensidad y tipo de cuidados que requiere un bebé son distintos a los que requiere una persona mayor, o una persona con discpacidad, por ejemplo. ¿Cómo saber entonces quién necesita cuidados y en qué medida —y con qué calidad— los está recibiendo? Estas preguntas son las que guiaron el estudio que aquí presentamos.</p>
 <p>Esta investigación fue desarrollada en el marco del compromiso “Fortalecer los servicios públicos de cuidados” del <em>Cuarto Plan de Acción de México en la Alianza para el Gobierno Abierto (AGA)</em>. Se trata de un estudio sobre la oferta y la demanda de cuidados en el municipio de Manzanillo, Colima, y de una propuesta para implementar un programa piloto para fortalecer los cuidados en ese municipio. El estudio estuvo a cargo de un equipo de investigación del Laboratorio Nacional de Políticas Públicas (LNPP) del CIDE, en un proceso colaborativo con las instituciones y organizaciones que forman parte del compromiso: Inmujeres, Conapred, Función Pública, Instituto de Liderazgo Simone de Beauvoir (ILSB), Grupo de Información en Reproducción Elegida (GIRE) e Incide Social.</p>
 <p>En este sitio presentamos tres documentos.</p>
 <ul>
-<li><p>La metodología para estructurar el trabajo de recolección de datos. En este documento ofrecemos una metodología que permite mapear la oferta y la demanda de cuidados, distinguiendo por quién los provee (hogar, estado o sector privado), por tipo de cuidado (personal, para el desarrollo o de salud) y por tipo de población. La metodología está diseñada para que sea posible replicar este análisis en cualquier municipio de México. <a href = 'https://github.com/lnpp/metodologia_diagnostico_cuidados_mex/raw/main/Documentos/MARCO%20ANALITICO-V060121.pdf'>Descargar Metodología.</a></a></p></li>
-<li><p>El diagnóstico de cobertura y calidad de los cuidados en el municipio de Manzanillo. Aquí diagnósticamos las brechas en los cuidados de tres grupos prioritarios de la población: primera infancia, personas con discapacidad y personas adultas mayores. También, diagnosticamos las condiciones bajo las cuales personas prestan cuidados.</p></li>
-<li><p>Propuesta para la implementación de una política integral de cuidados. En este documento detallamos los elementos necesarios para la creación de un sistema de cuidados. Presentamos tanto los elementos del diseño institucional requeridos para el diseño e implementación del sistema, así como el tipo de bienes, servicios y apoyos en general que debieran prestarse para garantizar el cuidado de cada persona a nivel municipal.</p></li>
+<li><p>La metodología para estructurar el trabajo de recolección de datos. En este documento ofrecemos una metodología que permite mapear la oferta y la demanda de cuidados, distinguiendo por quién los provee (hogar, estado o sector privado), por tipo de cuidado (personal, para el desarrollo o de salud) y por tipo de población. La metodología está diseñada para que sea posible replicar este análisis en cualquier municipio de México. <a href = 'https://github.com/lnpp/metodologia_diagnostico_cuidados_mex/raw/main/Documentos/MARCO%20ANALITICO-VF.pdf'>Descargar Marco Analítico.</a></p></li>
+<li><p>El diagnóstico de cobertura y calidad de los cuidados en el municipio de Manzanillo. Aquí diagnósticamos las brechas en los cuidados de tres grupos prioritarios de la población: primera infancia, personas con discapacidad y personas adultas mayores. También, diagnosticamos las condiciones bajo las cuales personas prestan cuidados. <a href = 'https://github.com/lnpp/metodologia_diagnostico_cuidados_mex/raw/main/Documentos/DIAGNOSTICO-VF.pdf'>Descargar Diagnóstico.</a></p></li>
+<li><p>Propuesta para la implementación de una política integral de cuidados. En este documento detallamos los elementos necesarios para la creación de un sistema de cuidados. Presentamos tanto los elementos del diseño institucional requeridos para el diseño e implementación del sistema, así como el tipo de bienes, servicios y apoyos en general que debieran prestarse para garantizar el cuidado de cada persona a nivel municipal. <a href = 'https://github.com/lnpp/metodologia_diagnostico_cuidados_mex/raw/main/Documentos/PROPUESTA%20IMPLEMENTACION-VF.pdf' >Descargar propuesta de implementación.</a></p></li>
 </ul>
 <p>Además de poner los reportes a disposición de los distintos niveles de gobierno, legisladores, organizaciones de la sociedad civil, académicos y público en general, en <a href="https://github.com/lnpp/metodologia_diagnostico_cuidados_mex" target="_blank">este repositorio</a> se aloja el código mediante el cual se obtuvo la información necesaria para el diagnóstico, utilizando el lenguaje R de análisis estadístico. De esta forma, esperamos facilitar la reproducción del ejercicio en otras localidades del país.</p>
 </div>
@@ -150,7 +250,7 @@
         <div class="col-sm-5 offset-md-1 col-sm-offset-1">
           <div class="row">
                             <div class="column">
-                              <img src="https://www.lnpp.mx/assets/lnpp_white.svg" alt="lnpp-logo" style="width:calc(200px + 8vw); padding-left:10px;">
+                              <img src="https://www.lnpp.mx/assets/lnpp_white.svg" alt="lnpp-logo" style="width:calc(200px + 8vw); padding-left:30px;">
                             </div>
                           </div>
                           <br>

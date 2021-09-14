@@ -2,6 +2,10 @@
 output: html_document
 ---
 
+<!-- <div class="row"> -->
+<!--   <div class="col-sm-2 offset-md-5"><a href = 'https://github.com/lnpp/metodologia_diagnostico_cuidados_mex'>Consultar Código</a></div> -->
+<!-- </div> -->
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
